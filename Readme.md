@@ -38,8 +38,8 @@ Environment files are located in the `envs/` directory.
 Clone the repository and set up the desired environment:
 
 ```bash
-git clone https://github.com/yourusername/your-thesis-repo.git
-cd your-thesis-repo
+git clone https://github.com/nick-feder/Deep-Learning-for-Industrial-Anomaly-Detection
+cd Deep-Learning-for-Industrial-Anomaly-Detection
 
 # Create and activate the PatchCore environment for the pipeline
 conda env create -f envs/patchcore_env.yml
