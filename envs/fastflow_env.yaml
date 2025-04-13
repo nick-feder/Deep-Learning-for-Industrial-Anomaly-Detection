@@ -1,4 +1,4 @@
-name: anomalib_env
+name: fastflow_env
 channels:
   - nvidia
   - pytorch
