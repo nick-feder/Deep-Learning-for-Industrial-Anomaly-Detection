@@ -31,7 +31,7 @@ Environment files are located in the `envs/` directory.
 | RD4AD       | `envs/rd4ad.yml`       |
 | FastFlow    | `envs/fastflow_env.yml`    |
 
->  If you intend to run the **real-time multithreaded pipeline**, ensure the `patchcore_env` is installed and activated.
+>  If you intend to run the **real-time multithreaded pipeline**, ensure the `patchcore_env` is installed and activated. The model checkpoint for PatchCore is provided and does not need to be downloaded from drive
 
 ## Installation
 
@@ -44,3 +44,7 @@ cd Deep-Learning-for-Industrial-Anomaly-Detection
 # Create and activate the PatchCore environment for the pipeline
 conda env create -f envs/patchcore_env.yml
 conda activate patchcore_env
+````
+## Dataset and Model Checkpoints
+The dataset and model checkpoints can be downloaded from the following link:
+https://drive.google.com/drive/folders/1UMbYFaGEHriwMIlqmalpXTd5G286DY9H?usp=drive_link
