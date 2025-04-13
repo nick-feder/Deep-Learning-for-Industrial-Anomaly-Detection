@@ -57,3 +57,5 @@ conda activate patchcore_env
 ## Dataset and Model Checkpoints
 The dataset and model checkpoints can be downloaded from the following link:
 https://drive.google.com/drive/folders/1UMbYFaGEHriwMIlqmalpXTd5G286DY9H?usp=drive_link
+
+To use the dataset, simply create a data folder in the root dir. The model checkpoints should be inserted into each model folder.
