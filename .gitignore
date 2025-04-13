@@ -1,0 +1,24 @@
+
+# Ignore everything by default
+*
+
+# Allow only code and notebooks
+checkout -b main.py
+checkout -b main.ipynb
+checkout -b main.md
+checkout -b main.yaml
+checkout -b main.yml
+checkout -b main/
+
+# Ignore junk
+__pycache__/
+*.pyc
+*.pt
+*.pkl
+*.faiss
+*.tfevents.*
+*.pth
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
