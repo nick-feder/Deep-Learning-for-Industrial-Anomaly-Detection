@@ -1,16 +1,20 @@
-
 # Ignore everything by default
 *
 
-# Allow only code and notebooks
-checkout -b main.py
-checkout -b main.ipynb
-checkout -b main.md
-checkout -b main.yaml
-checkout -b main.yml
-checkout -b main/
+# But allow these file types
+!*.py
+!*.ipynb
+!*.md
+!*.yaml
+!*.yml
 
-# Ignore junk
+# Allow directory traversal (or nothing gets through)
+!*/
+
+# Don't ignore this specific placeholder in data/
+!data/.keep
+
+# Ignore junk and large files
 __pycache__/
 *.pyc
 *.pt
@@ -21,4 +25,3 @@ __pycache__/
 .ipynb_checkpoints/
 .vscode/
 .idea/
-
