@@ -14,8 +14,17 @@ It includes model implementations, a multithreaded real-time pipeline, and LLM-b
 - `envs/` - YAML Environment files for each model 
 
 
-## Note on model code
-All model files are sourced from their original GitHub repositories and remain unmodified unless explicitly stated otherwise
+## 🔗 Acknowledgements
+
+This project includes modified code from the following open-source repositories:
+
+- [PatchCore](https://github.com/amazon-science/patchcore-inspection)
+- [DRAEM](https://github.com/VitjanZ/DRAEM)
+- [FastFlow](https://github.com/gathierry/FastFlow/tree/master)
+- [RD4AD](https://github.com/hq-deng/RD4AD/)
+
+The original code was adapted for use in a multi-view, real-time anomaly detection pipeline.
+
 
 ## Requirements
 
